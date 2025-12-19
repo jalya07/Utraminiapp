@@ -11,6 +11,7 @@ namespace ConsoleApp1.Appication
         {
             _studentService = studentService;
         }
+
         List<Assignment> Assignments { get; set; } = new List<Assignment>();
 
         public void AddTask(int studentId, Assignment assignment)
